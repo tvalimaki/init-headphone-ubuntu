@@ -40,7 +40,7 @@ DEV_PATH = "/dev"
 CMDLINE_PATH = "/proc/cmdline"
 KERNEL_PARAMETER = "acpi_enforce_resources=lax"
 MODULES_PATH = "/proc/modules"
-REQUIRED_MODULES = ["i2c_dev", "i2c_i801"]
+REQUIRED_MODULES = ["i2c_i801"] # "i2c_dev", 
 DEVICE_ADDRESS = 0x73
 DATA_DISABLE_OUTPUT = [
 #    CMD   Value
